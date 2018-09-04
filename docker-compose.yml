@@ -5,7 +5,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
-      - "5088:80"
+      - "5089:80"
     image: ${DOCKER_REGISTRY}webapplication9
     build: 
        context: .
